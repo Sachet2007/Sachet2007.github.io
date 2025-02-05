@@ -1,101 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo h1 {
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Text color */
     margin: 0;
+    padding: 0;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-header nav ul li a:hover {
-    color: #f39c12;
-}
-
-main {
-    padding: 40px 20px;
-}
-
-.hero {
-    background-color: #f39c12;
-    color: #fff;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-button:hover {
-    background-color: #f39c12;
-}
-
-section {
-    margin: 40px 0;
-}
-
-.about, .services {
-    text-align: center;
-}
-
-.services .service-item {
-    background-color: #f1f1f1;
+/* Header with glitter effect */
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
     padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-/* Glitter Effect for Name */
 .glitter-name {
     font-size: 60px;
     font-family: 'Arial', sans-serif;
@@ -115,7 +34,22 @@ footer {
     }
 }
 
-/* Styling for Social Media Links */
+/* Profile Image */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Section for Social Media Links */
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
 .social-media a {
     text-decoration: none;
     font-size: 20px;
@@ -124,12 +58,14 @@ footer {
     display: inline-block;
 }
 
-.social-media i {
-    margin-right: 8px;
-}
-
 .social-media a:hover {
-    color: #ff1493;
-    transition: color 0.3s;
+    color: #ff1493; /* Hover effect */
 }
 
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
