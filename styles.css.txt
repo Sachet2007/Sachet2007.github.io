@@ -69,3 +69,75 @@ footer {
     text-align: center;
     padding: 10px;
 }
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header with glitter effect */
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.glitter-name {
+    font-size: 60px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff69b4, #ff1493, #ff69b4);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: glitter 1.5s infinite alternate;
+}
+
+@keyframes glitter {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Profile Image */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Section for Social Media Links */
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-media a:hover {
+    color: #ff1493; /* Hover effect */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
