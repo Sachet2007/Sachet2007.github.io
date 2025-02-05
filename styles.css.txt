@@ -95,3 +95,41 @@ footer {
     text-align: center;
     padding: 10px;
 }
+/* Glitter Effect for Name */
+.glitter-name {
+    font-size: 60px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff69b4, #ff1493, #ff69b4);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: glitter 1.5s infinite alternate;
+}
+
+@keyframes glitter {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Styling for Social Media Links */
+.social-media a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-media i {
+    margin-right: 8px;
+}
+
+.social-media a:hover {
+    color: #ff1493;
+    transition: color 0.3s;
+}
+
