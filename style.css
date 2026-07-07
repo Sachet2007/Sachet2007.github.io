@@ -15,7 +15,7 @@ body {
 
 /* Header Section */
 header {
-    background-color: #4CAF50; /* Green background */
+    background-color: #0D47A1; /* Green background */
     color: white;
     text-align: center;
     padding: 30px 0;
@@ -25,7 +25,7 @@ header {
 .glitter-name {
     font-size: 60px;
     font-weight: bold;
-    background: linear-gradient(90deg, #ff69b4, #ff1493, #ff69b4); /* Gradient effect */
+    background: linear-gradient(90deg, #FFD524, #FF9100, #FFD524);
     -webkit-background-clip: text; /* Apply gradient to text */
     color: transparent; /* Make text transparent so gradient shows */
     animation: glitter 2s infinite alternate; /* Glitter animation */
@@ -69,7 +69,7 @@ header {
 }
 
 .social-media a:hover {
-    color: #ff1493; /* Hover effect on links */
+    color: #551A8B; /* Hover effect on links */
 }
 
 /* Footer Section */
